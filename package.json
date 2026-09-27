@@ -1,0 +1,25 @@
+{
+  "name": "programacion-web-ii",
+  "version": "1.0.0",
+  "description": "Aplicacion web que consume la API JSONPlaceholder con TypeScript, interfaces y fetch().",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch"
+  },
+  "keywords": ["typescript", "fetch", "api", "jsonplaceholder"],
+  "author": "Jean Martin",
+  "license": "ISC",
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "12.6.0",
+      "onFail": "download"
+    }
+  },
+  "packageManager": "pnpm@12.6.0",
+  "type": "module",
+  "devDependencies": {
+    "typescript": "7.0.2"
+  }
+}
